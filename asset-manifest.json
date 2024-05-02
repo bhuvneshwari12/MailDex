@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MailDex/static/css/main.95b4fc63.css",
+    "main.js": "/MailDex/static/js/main.3ff6f21a.js",
+    "index.html": "/MailDex/index.html",
+    "main.95b4fc63.css.map": "/MailDex/static/css/main.95b4fc63.css.map",
+    "main.3ff6f21a.js.map": "/MailDex/static/js/main.3ff6f21a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95b4fc63.css",
+    "static/js/main.3ff6f21a.js"
+  ]
+}
