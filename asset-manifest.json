@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MailDex/static/css/main.95b4fc63.css",
-    "main.js": "/MailDex/static/js/main.3ff6f21a.js",
+    "main.css": "/MailDex/static/css/main.4d0bea94.css",
+    "main.js": "/MailDex/static/js/main.b46c7a6e.js",
     "index.html": "/MailDex/index.html",
-    "main.95b4fc63.css.map": "/MailDex/static/css/main.95b4fc63.css.map",
-    "main.3ff6f21a.js.map": "/MailDex/static/js/main.3ff6f21a.js.map"
+    "main.4d0bea94.css.map": "/MailDex/static/css/main.4d0bea94.css.map",
+    "main.b46c7a6e.js.map": "/MailDex/static/js/main.b46c7a6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.95b4fc63.css",
-    "static/js/main.3ff6f21a.js"
+    "static/css/main.4d0bea94.css",
+    "static/js/main.b46c7a6e.js"
   ]
 }
