@@ -1,0 +1,81 @@
+/* MessageDetail.css */
+
+.message-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease-in-out;
+  animation: slideInRight 0.8s ease-in-out;
+}
+
+/* Animations */
+@keyframes slideInRight {
+  from {
+      opacity: 0;
+      transform: translateX(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+/* Loading */
+.loading {
+  font-size: 20px;
+  color: #555;
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0.5;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/* Header */
+.message-container h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Message Details */
+.message-details {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.message-details div {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 4px solid #ddd;
+  transition: all 0.3s ease-in-out;
+}
+
+.message-details div:hover {
+  background: #f9f9f9;
+  border-left: 4px solid #4A90E2;
+  transform: translateX(10px);
+}
+
+.message-details span {
+  font-weight: bold;
+  color: #333;
+}

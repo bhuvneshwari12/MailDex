@@ -1,0 +1,14 @@
+.toggle {
+margin-bottom: -2rem;
+    background-color: transparent;
+    color: #9f5ccc;
+    border: none;
+font-size: 1rem;
+
+  }
+  
+   .toggle:hover {
+    background-color: transparent;
+    color: #ae82cc;
+  }
+

@@ -1,0 +1,69 @@
+/* SideBar.css */
+
+/* Sidebar Container */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: linear-gradient(135deg, #050505, #323033);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items at the top */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Sidebar Title */
+.sidebar-title {
+  text-decoration: underline;
+  color: #ffffff;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Sidebar Navigation */
+.sidebar-nav {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px; /* Add margin to separate from title */
+}
+
+/* Sidebar Link */
+.sidebar-link {
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+/* Hover Effects */
+.sidebar-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(5px);
+}
+
+/* Active Link */
+.sidebar-link.active {
+  background: rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+}
+
+/* Logout Link */
+.sidebar-link:last-child {
+  margin-top: auto; /* Push logout link to the bottom */
+  background: #926f72;
+  color: #ffffff;
+}
+
+.sidebar-link:last-child:hover {
+  background: #ff6f71;
+}
